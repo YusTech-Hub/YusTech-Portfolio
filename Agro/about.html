@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Page title</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+       <!------------ header ------------>
+    <header class="header">
+        <a href="#"><img src="logo-f.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+    
+     <!------------ sub-header session ------------>
+     <section class="sub-header" id="sub-header">
+           <h1>About <span>Us</span></h1>
+     </section>
+   
+   
+     <!------------ about session ------------>
+     
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="logo-h.png" alt="">
+        </div>
+        <div class="about-text">
+            <p>At Agrokulture Consults, we are passionate about transforming agricultural spaces and pushing the boundaries of modern farming techniques. Our team of dedicated and results-driven agronomists brings over five years of experience in the Agrotech industry. We specialize in innovative methods such as soilless farming, greenhouse construction, and precision farming, using advanced technologies like drone monitoring, hydroponics, and aquaponics to deliver sustainable and efficient farming solutions. With a commitment to quality and sustainability, we focus on producing healthy, organic vegetables, including lettuce, tomatoes, bok choy, peppers, and other leafy greens, ensuring a fresh and nutritious supply for our clients. Our expertise and innovative approach position us as leaders in modern agriculture, helping you cultivate a brighter, greener future.</p>
+            </section>
+
+            <section class="mission-section">
+    <h4><span>Our </span>Mission</h4>
+    <p>At Agrokulture Consults, our mission is to revolutionize the agricultural landscape through unwavering commitment to innovation, collaboration, excellence, and integrity.</p>
+    <div class="mission-container">
+        <div class="mission">
+            <img src="integrity.jpg" alt="Integrity">
+            <h1><span>Integrity</span></h1>
+            <p>Integrity is the cornerstone of our business. We uphold the highest ethical standards, ensuring transparency, honesty, and accountability in all our interactions and endeavors.</p>
+        </div>
+
+        <div class="mission">
+            <img src="excellence.jpg" alt="Excellence">
+            <h1><span>Excellence</span></h1>
+            <p>Our dedication to excellence is reflected in everything we do. We are committed to delivering the highest quality of service and outcomes, continuously improving our processes and methodologies to exceed expectations.</p>
+        </div>
+
+        <div class="mission">
+            <img src="collaboration.jpg" alt="Collaboration">
+            <h1><span>Collaboration</span></h1>
+            <p>We believe in the power of partnerships and collective expertise. By fostering a collaborative environment, we work closely with farmers, agribusinesses, and industry stakeholders to achieve shared goals and create lasting impact.</p>
+        </div>
+
+        <div class="mission">
+            <img src="innovation.jpg" alt="Innovation">
+            <h1><span>Innovation</span></h1>
+            <p>We strive to pioneer cutting-edge solutions that drive sustainable agricultural practices, ensuring that our clients are always at the forefront of technological advancements and industry trends.</p>
+        </div>
+    </div>
+    
+    <a href="#" class="btn">Let's Talk</a>
+</section>
+    <section class="others" id="others">
+        <div class="sub-text-title">
+          <h2> Why Choose <span>Us?</span></h2>  
+        </div>
+        
+        <div class="others-img">
+            <img src="johnson.jpg" alt="staff logo">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+          <p>Agrokulture <span> Consults </span>is not just another agricultural service provider – we are your partners in achieving sustainable and productive farming. Here’s why you should choose us: </p>
+          <p> 1. Expertise in Agrotech: With a wealth of experience in advanced farming methods, including hydroponics and precision farming, our team brings unparalleled expertise to every project, ensuring optimal growth and efficiency.</p>
+           <p> 2. Cutting-Edge Technology: We leverage the latest in Agrotechnology, including drone monitoring and soilless farming methods, to deliver innovative and effective solutions that meet modern agricultural demands.</p>
+         <p> 3. Comprehensive Service Offering: From greenhouse construction and seed procurement to agronomy services and consulting, we provide end-to-end agricultural solutions tailored to your unique needs.</p>
+          <p> 4. Commitment to Quality: We source only the highest quality seeds and utilize proven farming techniques, ensuring a bountiful harvest that is both healthy and environmentally sustainable.</p>
+            <p>5. Client-Centered Approach: We work closely with our clients, providing personalized consulting and ongoing support to ensure their success and satisfaction at every stage.
+            </p>
+            
+            <p> Choose Agrokulture Consults for a reliable, innovative, and sustainable approach to modern agriculture. Let us help you grow a healthier tomorrow.</p>
+        </div>
+        
+        <div>
+               <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+
+   <!------------ footer ------------>
+    <footer class="footer">
+    <div class="attribution">
+        <p>AgroKulture Consults, Copyright &copy; 2024</p>
+    </div>
+    <div class="move-up">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+    </footer>
+    
+    
+    <!-- JS for toggle menu -->
+    <script>
+    var navMenu = document.getElementById("navMenu");
+
+    function openMenu() {
+        navMenu.style.right = "0";
+    }
+
+    function closeMenu() {
+        navMenu.style.right = "-200px";
+    }
+    </script>
+
+</body>
+</html>

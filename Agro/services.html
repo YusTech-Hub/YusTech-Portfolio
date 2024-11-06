@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Page title</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+       <!------------ header ------------>
+    <header class="header">
+        <a href="#"><img src="logo-f.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+    
+     <!------------ sub-header session ------------>
+     <section class="sub-header" id="sub-header">
+         <h1><span>Our </span> Services</h1>
+     </section>
+    
+    <!------------ services session ------------>
+    <section class="services" id="services">
+        <div class="text-title">
+                <h3>We provide innovative and sustainable solutions to help you achieve your agricultural goals.</h3>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <div class="icons">
+                 <i class="fas fa-seedling"></i>
+                </div>
+                <h3>Greenhouse Construction</h3>
+                <p>Provide an enabling environment for growing these leafy and fruity vegetables using hydroponics, soill and soilless methods of farming.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Agronomy Service</h3>
+                <p>Provide experts agronomists in cultivation and monitoring of your farm products from seeds to harvest.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                   <i class="fas fa-box-open"></i>
+                </div>
+                <h3>Seed Procurement</h3>
+                <p> Source for top-notch, hybrid quality seeds that have high resistance to seasonal diseases which in turn gives opportunity for bountiful harvests.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                   <i class="fas fa-comments"></i>
+                </div>
+                <h3>Consulting Services</h3>
+                <p> Provide consultation on protected environment farming and hydroponics management as an innovative approach to Agrotechnology.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+        </div>
+     </section>
+    
+    <section class="how-it-works">
+    <h3>How We Work</h3>
+    <div class="step">
+        <h4>1. Consultation</h4>
+        <p>We begin by understanding your unique needs and goals.</p>
+    </div>
+    <div class="step">
+        <h4>2. Planning</h4>
+        <p>Our experts design a tailored plan for your agricultural needs.</p>
+    </div>
+    <div class="step">
+        <h4>3. Implementation</h4>
+        <p>We execute the plan, providing ongoing support as needed.</p>
+    </div>
+    <div class="step">
+        <h4>4. Monitoring & Support</h4>
+        <p>Our team remains available for guidance and support post-project.</p>
+    </div>
+</section>
+
+<section class="faq">
+    <h3>Frequently Asked Questions</h3>
+    <div class="question">
+        <h4>What crops can be grown in your greenhouses?</h4>
+        <p>We offer solutions suitable for a wide variety of leafy and fruity vegetables.</p>
+    </div>
+    <div class="question">
+        <h4>What makes your seeds high-quality?</h4>
+        <p>We source hybrid seeds known for their disease resistance and yield potential.</p>
+    </div>
+</section>
+
+<div class="cta">
+    <p>Ready to elevate your agricultural productivity? Get in touch with us today!</p>
+    <a href="contact.html" class="btn">Contact Us</a>
+</div>
+
+      <!------------ footer ------------>
+    <footer class="footer">
+    <div class="attribution">
+        <p>AgroKulture Consults, Copyright &copy; 2024</p>
+    </div>
+    <div class="move-up">
+        <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+    </footer>
+    
+    <!-- JS for toggle menu -->
+    <script>
+    var navMenu = document.getElementById("navMenu");
+
+    function openMenu() {
+        navMenu.style.right = "0";
+    }
+
+    function closeMenu() {
+        navMenu.style.right = "-200px";
+    }
+    </script>
+
+</body>
+</html>
